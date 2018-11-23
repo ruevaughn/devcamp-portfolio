@@ -1,9 +1,4 @@
 module DeviseWhitelist
-  # Note to self - This is a good lesson on module naming:
-  # The module naming conention HAS to match the module filename
-  # This is why in the past i've always had problems including
-  # Modules in testing
-
   extend ActiveSupport::Concern
 
   included do
